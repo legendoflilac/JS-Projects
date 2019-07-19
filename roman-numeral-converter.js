@@ -24,3 +24,8 @@ function convertToRoman(num) {
 }
    
 console.log(convertToRoman(39));
+
+/*
+https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter/
+The intermediate/advanced solutions have more complex ways of making the roman numeral without having every oddity (4's and 9's) in the array.
+*/
