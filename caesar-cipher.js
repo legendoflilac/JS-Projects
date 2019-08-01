@@ -10,9 +10,6 @@ String.fromCharCode() too
 //"starter" algorithm
 function rot13(str) { // LBH QVQ VG!
     let regex = /[A-Z]/g
-    /*match everything, transform char code
-    arr.map((char)=>char.match(regex).charCodeAt(char))
-    */
     let translationArr = [];
     for (var i = 0; i<str.length; i++) {
       let charCode = str.charCodeAt(i);
@@ -35,3 +32,7 @@ function rot13(str) { // LBH QVQ VG!
   
   // Change the inputs below to test
   rot13("SERR PBQR PNZC");
+
+/*
+https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher/
+*/
