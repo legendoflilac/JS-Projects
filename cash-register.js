@@ -62,3 +62,15 @@ Cash register
       }
   
   checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
+
+  /*
+In Review
+This was a tough one. I procrastinated a lot, and getting it to pass all the tests was a relief.
+I looked at a few other questions and answers to this project but didn't find them to be helpful.
+I intentionally wanted to work with the data in arrays only instead of converting to arrays of 
+objects as shown below in the the guide. I felt it would give an extra challenge (spoiler: it was).
+The rest of the code in the guide seems more elegant and uses reduce functions, which I'm still
+bad at implementing into anything beyond toy examples. At least it's something to work toward.
+
+https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/
+*/
